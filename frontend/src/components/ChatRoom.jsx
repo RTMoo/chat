@@ -79,7 +79,7 @@ const ChatRoom = () => {
         {messages.map((msg, index) => (
           <div
             key={index}
-            className={`my-1 p-2 rounded-lg ${msg.isSelf ? 'bg-blue-200 text-right' : 'bg-gray-200 text-left'}`}
+            className={`my-1 p-2 rounded-lg ${msg.isSelf ? 'text-blue-500' : 'text-red-500'}`}
           >
             {msg.text}
           </div>
