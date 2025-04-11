@@ -11,4 +11,5 @@ dependencies = [
     "fastapi>=0.115.12",
     "python-jose>=3.4.0",
     "uvicorn>=0.34.0",
+    "websockets>=15.0.1",
 ]
